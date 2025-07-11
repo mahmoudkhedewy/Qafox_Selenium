@@ -1,0 +1,15 @@
+{
+  "registerData": {
+    "firstName": "mahmoud",
+    "lastName": "khedewy",
+    "email": "mahmoud",
+    "telephone": "01205456789",
+    "password": "Mm!0987654321!!##12211$"
+
+},
+  "loginData": {
+    "email": "mahmoud2841@gmail.com",
+    "password": "Mm!12345"
+  }
+}
+
