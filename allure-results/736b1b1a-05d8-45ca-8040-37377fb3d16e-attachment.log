@@ -1,0 +1,65 @@
+2025-07-20 11:45:59 [main] INFO  tests.TestBase - STARTING BROWSER SETUP
+2025-07-20 11:45:59 [main] INFO  tests.TestBase - Loaded properties: {baseURL=https://tutorialsninja.com/demo/, chromeBrowser=chrome, firefoxBrowser=firefox}
+2025-07-20 11:46:03 [main] INFO  drivers.DriverManager - chrome is created 
+2025-07-20 11:46:07 [main] INFO  tests.TestBase - Navigated to base URL.
+2025-07-20 11:46:07 [main] INFO  utils.ElementActions - finding an element By.xpath: //span[text()='My Account']
+2025-07-20 11:46:08 [main] INFO  utils.Waits - wait element to be clickable By.xpath: //a[text()='Register']
+2025-07-20 11:46:08 [main] INFO  utils.Waits - wait element to be visibleBy.xpath: //a[text()='Register']
+2025-07-20 11:46:08 [main] INFO  utils.Waits - wait element to be presentBy.xpath: //a[text()='Register']
+2025-07-20 11:46:08 [main] INFO  utils.ElementActions - finding an element By.xpath: //a[text()='Register']
+2025-07-20 11:46:09 [main] INFO  utils.Scrolling - scrolling to an element By.id: input-firstname
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-firstname
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-firstname
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-firstname
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-firstname
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - data sent to By.id: input-firstnamewith datamahmoud
+2025-07-20 11:46:09 [main] INFO  utils.Scrolling - scrolling to an element By.id: input-lastname
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-lastname
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-lastname
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-lastname
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-lastname
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - data sent to By.id: input-lastnamewith datakhedewy
+2025-07-20 11:46:09 [main] INFO  utils.Scrolling - scrolling to an element By.id: input-email
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-email
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-email
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-email
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-email
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - data sent to By.id: input-emailwith datamahmoud1753001158531@gmail.com
+2025-07-20 11:46:09 [main] INFO  utils.Scrolling - scrolling to an element By.id: input-telephone
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-telephone
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-telephone
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-telephone
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-telephone
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - data sent to By.id: input-telephonewith data01205456789
+2025-07-20 11:46:09 [main] INFO  utils.Scrolling - scrolling to an element By.id: input-password
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-password
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-password
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-password
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-password
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - data sent to By.id: input-passwordwith dataMm!0987654321!!##12211$
+2025-07-20 11:46:09 [main] INFO  utils.Scrolling - scrolling to an element By.id: input-confirm
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-confirm
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-confirm
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-confirm
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.id: input-confirm
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - data sent to By.id: input-confirmwith dataMm!0987654321!!##12211$
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.xpath: //input[@type='checkbox']
+2025-07-20 11:46:09 [main] INFO  utils.Waits - wait element to be clickable By.cssSelector: input.btn.btn-primary
+2025-07-20 11:46:09 [main] INFO  utils.Waits - wait element to be visibleBy.cssSelector: input.btn.btn-primary
+2025-07-20 11:46:09 [main] INFO  utils.Waits - wait element to be presentBy.cssSelector: input.btn.btn-primary
+2025-07-20 11:46:09 [main] INFO  utils.ElementActions - finding an element By.cssSelector: input.btn.btn-primary
+2025-07-20 11:46:10 [main] INFO  utils.Waits - wait element to be visibleBy.xpath: //h1[text()='Your Account Has Been Created!']
+2025-07-20 11:46:10 [main] INFO  utils.Waits - wait element to be presentBy.xpath: //h1[text()='Your Account Has Been Created!']
+2025-07-20 11:46:11 [main] INFO  utils.Scrolling - scrolling to an element By.xpath: //h1[text()='Your Account Has Been Created!']
+2025-07-20 11:46:11 [main] INFO  utils.ElementActions - finding an element By.xpath: //h1[text()='Your Account Has Been Created!']
+2025-07-20 11:46:11 [main] INFO  utils.ElementActions - finding an element By.xpath: //h1[text()='Your Account Has Been Created!']
+2025-07-20 11:46:11 [main] INFO  utils.ElementActions - getting text of By.xpath: //h1[text()='Your Account Has Been Created!']with dataYour Account Has Been Created!
+2025-07-20 11:46:11 [main] INFO  utils.ElementActions - finding an element By.xpath: //h1[text()='Your Account Has Been Created!']
+2025-07-20 11:47:16 [main] INFO  listeners.TestNGListeners - test execution started 
+2025-07-20 11:47:16 [main] INFO  tests.TestBase - STARTING BROWSER SETUP
+2025-07-20 11:47:16 [main] INFO  tests.TestBase - Loaded properties: {baseURL=https://tutorialsninja.com/demo/, chromeBrowser=chrome, firefoxBrowser=firefox}
+2025-07-20 11:47:18 [main] INFO  drivers.DriverManager - chrome is created 
+2025-07-20 11:47:21 [main] INFO  tests.TestBase - Navigated to base URL.
+2025-07-20 11:47:21 [main] INFO  utils.ElementActions - finding an element By.tagName: h4
+2025-07-20 11:47:21 [main] INFO  utils.ElementActions - finding an element By.xpath: //span[text()='Shopping Cart']
+2025-07-20 11:47:22 [main] INFO  utils.ScreenShot - Screenshot saved: test-outputs\screenshots\addToCart.png

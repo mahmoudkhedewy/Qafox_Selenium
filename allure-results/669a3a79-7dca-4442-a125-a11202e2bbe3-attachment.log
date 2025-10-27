@@ -1,0 +1,56 @@
+2025-07-16 13:47:54 [main] INFO  listeners.TestNGListeners - test execution started 
+2025-07-16 13:47:54 [main] INFO  tests.TestBase - STARTING BROWSER SETUP
+2025-07-16 13:47:54 [main] INFO  tests.TestBase - Loaded properties: {baseURL=https://tutorialsninja.com/demo/, chromeBrowser=chrome, firefoxBrowser=firefox}
+2025-07-16 13:47:55 [main] INFO  drivers.DriverManager - chrome is created 
+2025-07-16 13:47:59 [main] INFO  tests.TestBase - Navigated to base URL.
+2025-07-16 13:47:59 [main] INFO  utils.ElementActions - finding an element By.xpath: //span[text()='My Account']
+2025-07-16 13:47:59 [main] INFO  utils.Waits - wait element to be clickable By.xpath: //a[text()='Login']
+2025-07-16 13:47:59 [main] INFO  utils.Waits - wait element to be visibleBy.xpath: //a[text()='Login']
+2025-07-16 13:47:59 [main] INFO  utils.Waits - wait element to be presentBy.xpath: //a[text()='Login']
+2025-07-16 13:47:59 [main] INFO  utils.ElementActions - finding an element By.xpath: //a[text()='Login']
+2025-07-16 13:48:00 [main] INFO  utils.ScreenShot - Screenshot saved: test-outputs\screenshots\navigateToLoginPage.png
+2025-07-16 13:48:00 [main] INFO  listeners.TestNGListeners - test case passed navigateToLoginPage
+2025-07-16 13:48:00 [main] INFO  utils.Waits - wait element to be visibleBy.id: input-email
+2025-07-16 13:48:00 [main] INFO  utils.Waits - wait element to be presentBy.id: input-email
+2025-07-16 13:48:00 [main] INFO  utils.Scrolling - scrolling to an element By.id: input-email
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - finding an element By.id: input-email
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - finding an element By.id: input-email
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - finding an element By.id: input-email
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - finding an element By.id: input-email
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - data sent to By.id: input-emailwith datamahmoud2841@gmail.com
+2025-07-16 13:48:00 [main] INFO  utils.Scrolling - scrolling to an element By.id: input-password
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - finding an element By.id: input-password
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - finding an element By.id: input-password
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - finding an element By.id: input-password
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - finding an element By.id: input-password
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - data sent to By.id: input-passwordwith dataMm!12345
+2025-07-16 13:48:00 [main] INFO  utils.ElementActions - finding an element By.cssSelector: input[value='Login']
+2025-07-16 13:48:02 [main] INFO  utils.Waits - wait element to be visibleBy.xpath: //h2[text()='My Account']
+2025-07-16 13:48:02 [main] INFO  utils.Waits - wait element to be presentBy.xpath: //h2[text()='My Account']
+2025-07-16 13:48:02 [main] INFO  utils.Scrolling - scrolling to an element By.xpath: //h2[text()='My Account']
+2025-07-16 13:48:02 [main] INFO  utils.ElementActions - finding an element By.xpath: //h2[text()='My Account']
+2025-07-16 13:48:02 [main] INFO  utils.ElementActions - finding an element By.xpath: //h2[text()='My Account']
+2025-07-16 13:48:02 [main] INFO  utils.ElementActions - getting text of By.xpath: //h2[text()='My Account']with dataMy Account
+2025-07-16 13:48:02 [main] INFO  utils.ElementActions - finding an element By.xpath: //h2[text()='My Account']
+2025-07-16 13:48:02 [main] INFO  utils.ScreenShot - Screenshot saved: test-outputs\screenshots\login.png
+2025-07-16 13:48:02 [main] INFO  listeners.TestNGListeners - test case passed login
+2025-07-16 13:48:45 [main] INFO  listeners.TestNGListeners - test execution started 
+2025-07-16 13:48:45 [main] INFO  tests.TestBase - STARTING BROWSER SETUP
+2025-07-16 13:48:45 [main] INFO  tests.TestBase - Loaded properties: {baseURL=https://tutorialsninja.com/demo/, chromeBrowser=chrome, firefoxBrowser=firefox}
+2025-07-16 13:48:46 [main] INFO  drivers.DriverManager - chrome is created 
+2025-07-16 13:48:49 [main] INFO  tests.TestBase - Navigated to base URL.
+2025-07-16 13:48:49 [main] INFO  utils.ElementActions - finding an element By.tagName: h4
+2025-07-16 13:48:49 [main] INFO  utils.ElementActions - finding an element By.xpath: //span[text()='Shopping Cart']
+2025-07-16 13:48:50 [main] INFO  utils.ScreenShot - Screenshot saved: test-outputs\screenshots\addToCart.png
+2025-07-16 13:48:50 [main] INFO  listeners.TestNGListeners - test case passed addToCart
+2025-07-16 13:48:50 [main] INFO  tests.TestBase - STARTING BROWSER SETUP
+2025-07-16 13:48:50 [main] INFO  tests.TestBase - Loaded properties: {baseURL=https://tutorialsninja.com/demo/, chromeBrowser=chrome, firefoxBrowser=firefox}
+2025-07-16 13:48:51 [main] INFO  drivers.DriverManager - chrome is created 
+2025-07-16 13:48:54 [main] INFO  tests.TestBase - Navigated to base URL.
+2025-07-16 13:48:54 [main] INFO  utils.Waits - wait element to be visibleBy.xpath: //a[text()='Mac (1)']
+2025-07-16 13:48:54 [main] INFO  utils.Waits - wait element to be presentBy.xpath: //a[text()='Mac (1)']
+2025-07-16 13:48:54 [main] INFO  utils.ElementActions - finding an element By.xpath: //a[text()='Mac (1)']
+2025-07-16 13:48:55 [main] INFO  utils.Waits - wait element to be visibleBy.tagName: h2
+2025-07-16 13:48:55 [main] INFO  utils.Waits - wait element to be presentBy.tagName: h2
+2025-07-16 13:48:55 [main] INFO  utils.ElementActions - finding an element By.tagName: h2
+2025-07-16 13:48:55 [main] INFO  utils.ScreenShot - Screenshot saved: test-outputs\screenshots\hoverOverDesktopProducts.png

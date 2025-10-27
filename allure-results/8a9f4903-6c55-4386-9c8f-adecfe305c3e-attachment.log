@@ -1,0 +1,11 @@
+2025-07-16 23:05:30 [main] INFO  listeners.TestNGListeners - test execution started 
+2025-07-16 23:05:30 [main] INFO  tests.TestBase - STARTING BROWSER SETUP
+2025-07-16 23:05:30 [main] INFO  tests.TestBase - Loaded properties: {baseURL=https://tutorialsninja.com/demo/, chromeBrowser=chrome, firefoxBrowser=firefox}
+2025-07-16 23:05:32 [main] INFO  drivers.DriverManager - chrome is created 
+2025-07-16 23:05:36 [main] INFO  tests.TestBase - Navigated to base URL.
+2025-07-16 23:05:36 [main] INFO  utils.ElementActions - finding an element By.xpath: //span[text()='My Account']
+2025-07-16 23:05:36 [main] INFO  utils.Waits - wait element to be clickable By.xpath: //a[text()='Login']
+2025-07-16 23:05:36 [main] INFO  utils.Waits - wait element to be visibleBy.xpath: //a[text()='Login']
+2025-07-16 23:05:36 [main] INFO  utils.Waits - wait element to be presentBy.xpath: //a[text()='Login']
+2025-07-16 23:05:36 [main] INFO  utils.ElementActions - finding an element By.xpath: //a[text()='Login']
+2025-07-16 23:05:37 [main] INFO  utils.ScreenShot - Screenshot saved: test-outputs\screenshots\navigateToLoginPage.png

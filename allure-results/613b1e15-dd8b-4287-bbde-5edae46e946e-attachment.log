@@ -1,0 +1,8 @@
+2025-07-20 11:47:32 [main] INFO  listeners.TestNGListeners - test execution started 
+2025-07-20 11:47:33 [main] INFO  tests.TestBase - STARTING BROWSER SETUP
+2025-07-20 11:47:33 [main] INFO  tests.TestBase - Loaded properties: {baseURL=https://tutorialsninja.com/demo/, chromeBrowser=chrome, firefoxBrowser=firefox}
+2025-07-20 11:47:34 [main] INFO  drivers.DriverManager - chrome is created 
+2025-07-20 11:47:40 [main] INFO  tests.TestBase - Navigated to base URL.
+2025-07-20 11:47:40 [main] INFO  utils.ElementActions - finding an element By.tagName: h4
+2025-07-20 11:47:40 [main] INFO  utils.ElementActions - finding an element By.xpath: //span[text()='Shopping Cart']
+2025-07-20 11:47:42 [main] INFO  utils.ScreenShot - Screenshot saved: test-outputs\screenshots\addToCart.png

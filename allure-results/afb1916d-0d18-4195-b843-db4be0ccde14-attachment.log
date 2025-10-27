@@ -1,0 +1,3 @@
+2025-07-16 23:17:42 [main] INFO  listeners.TestNGListeners - test execution started 
+2025-07-16 23:17:44 [main] INFO  drivers.DriverManager - chrome is created 
+2025-07-16 23:17:44 [main] INFO  utils.ScreenShot - Screenshot saved: test-outputs\screenshots\test case skippednavigateToLoginPage.png
