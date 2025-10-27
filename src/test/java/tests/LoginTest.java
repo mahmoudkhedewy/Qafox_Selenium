@@ -18,8 +18,7 @@ public class LoginTest extends TestBase{
     ReadData data;
 
     @Test
-    @Step("navigate to login page test test")
-    
+    @Step("navigate to login page")
     public void navigateToLoginPage(){
         homePage = new HomePage(DriverManager.getDriver());
         homePage.navigateToLoginPage();
