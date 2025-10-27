@@ -30,7 +30,7 @@ public class ReadData {
 
 //         Extract login data
         JSONObject loginData = (JSONObject) rootObject.get("loginData");
-         emailLogin= (String) loginData.get("email");
+        emailLogin= (String) loginData.get("email");
         passwordLogin = (String) loginData.get("password");
     }
 

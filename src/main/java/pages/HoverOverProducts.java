@@ -18,7 +18,7 @@ public class HoverOverProducts {
 
     public void hoverOverDesktopProducts(){
         WebElement desktop = driver.findElement(desktopProducts);
-        ElementActions.hoverOver(driver,desktop);
+        ElementActions.hoverOver(desktop);
         Waits.waitELementToBeVisible(driver,mac1Product);
         ElementActions.clickElement(driver,mac1Product);
     }

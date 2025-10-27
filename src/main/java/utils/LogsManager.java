@@ -7,7 +7,7 @@ public class LogsManager {
     // this cals to log
     // declare the path of logs
 
-    public static final String LOGS_PATH = "test-outputs/logs";
+    public static final String LOGS_PATH = "test-outputs/logs/test-execution.log";
 
     private LogsManager(){
         super();

@@ -7,12 +7,14 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 
 import java.util.List;
 
 public class ElementActions {
     static Actions actions;
+    Select select;
     private ElementActions(){
 
     }
@@ -41,7 +43,7 @@ public class ElementActions {
         Scrolling.scrollToElement(driver,locator);
 
         // clear existing data
-        findElement(driver,locator).sendKeys(Keys.CONTROL,"a");
+//        findElement(driver,locator).sendKeys(Keys.CONTROL,"a");
         findElement(driver,locator).sendKeys(Keys.DELETE);
         findElement(driver,locator).sendKeys(data);
         // log data sent
@@ -65,9 +67,21 @@ public class ElementActions {
     }
 
     @Step("hoverOverElements")
-    public static void hoverOver(WebDriver driver,WebElement locator){
+    public static void hoverOver(WebElement locator){
         actions = new Actions(DriverManager.getDriver());
         actions.moveToElement(locator).build().perform();
     }
+
+    public void selectByVisableText(String text, WebElement locator){
+        select = new Select(locator);
+        select.selectByVisibleText(text);
+    }
+
+    public void selectByIndex(int index, WebElement locator){
+        select = new Select(locator);
+        select.selectByIndex(index);
+    }
+
+
 
 }

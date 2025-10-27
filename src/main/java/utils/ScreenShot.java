@@ -33,7 +33,7 @@ public class ScreenShot {
 
             // Attach to Allure
             AllureUtils.attachScreenshotFromFile(destPath.toString(), screenShotName);
-            AllureUtils.attachLogFile(LogsManager.LOGS_PATH,"logs");
+            AllureUtils.attachLogFile(LogsManager.LOGS_PATH);
 
         } catch (Exception e) {
             LogsManager.error("Failed to take screenshot: " + e.getMessage());

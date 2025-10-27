@@ -13,7 +13,7 @@ public class BrowserActions {
     public static void navigateToURL(WebDriver driver, String url){
         LogsManager.info("navigate to url :"+url);
         driver.manage().window().maximize();
-        driver.get("url");
+        driver.get(url);
     }
 
     @Step("Navigate forward")
