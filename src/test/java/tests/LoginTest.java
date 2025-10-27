@@ -19,6 +19,7 @@ public class LoginTest extends TestBase{
 
     @Test
     @Step("navigate to login page test test")
+    
     public void navigateToLoginPage(){
         homePage = new HomePage(DriverManager.getDriver());
         homePage.navigateToLoginPage();
